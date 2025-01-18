@@ -1,0 +1,158 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 10px;
+    background-color: rgba(213, 213, 213, 0.69);
+    min-width: 350px;
+    color: #333;
+}
+
+h1 {
+    font-size: 14px;
+    color: #444;
+    text-align: center;
+    font-weight: bold;
+    opacity: 0.8; /* Менш акцентний заголовок */
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #ccc; /* Трохи більш контрастна лінія */
+    margin: 8px 0; /* Достатньо місця між блоками */
+    opacity: 0.5; /* Трохи більший акцент */
+}
+
+fieldset {
+    border: none;
+    border-radius: 8px; /* Більш округлі кути для сучасного вигляду */
+    padding: 15px 20px;
+    margin-bottom: 20px; /* Збільшений відступ між блоками */
+    background-color: #fcfcfc; /* Світліший фон для контрасту */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06); /* Легка, сучасна тінь */
+}
+
+legend {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    display: block;
+}
+
+.radio-group,
+.checkbox-group {
+    display: flex;
+    flex-direction: column;
+    gap: 12px; /* Трохи зменшено, щоб виглядало компактніше */
+}
+
+label {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #333;
+    cursor: pointer;
+    gap: 12px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin: 0;
+    transform: scale(1.3);
+    accent-color: #007bff; /* Синій акцент */
+}
+
+textarea {
+    padding: 10px; /* Збільшений внутрішній відступ для комфорту */
+    margin-top: 8px;
+    resize: vertical;
+    min-height: 32px; /* Збільшено для кращого введення тексту */
+    border: 1px solid #ddd;
+    border-radius: 10px; /* Більш округлі кути */
+    font-size: 14px; /* Легше читати текст */
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+    transition: border-color 0.3s, background-color 0.3s;
+}
+
+textarea:focus {
+    outline: none;
+    border-color: #007bff;
+    background-color: #fff;
+}
+
+.instructions {
+    font-size: 13px; /* Зроблено трохи меншим */
+    color: #666; /* Більш нейтральний відтінок */
+    text-align: center;
+    margin-top: 0;
+    line-height: 1;
+    opacity: 0.85; /* Менш помітний текст */
+}
+
+p {
+    margin-top: 0; /* Зменшений відступ зверху */
+    font-size: 14px; /* Збільшено розмір шрифту */
+    color: #666; /* Трохи менш контрастний */
+    line-height: 1.2; /* Комфортний міжрядковий інтервал */
+}
+
+.tooltip-icon {
+    position: relative;
+    cursor: pointer;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 18px; /* Менший розмір круга */
+    height: 18px; /* Менший розмір круга */
+    background-color: #f0f0f0; /* Світліший сірий фон */
+    border-radius: 50%;
+    color: #555; /* Трохи темніший текст */
+    font-size: 14px; /* Трохи менший текст */
+    /*font-weight: bold;*/
+    transition: background-color 0.2s ease, color 0.2s ease, transform 0.2s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Легкий тіньовий ефект */
+}
+
+.tooltip-icon:hover {
+    background-color: #d9d9d9; /* Трохи темніший фон при наведенні */
+    color: #333; /* Темніший текст при наведенні */
+    transform: scale(1.05); /* Легка анімація збільшення */
+}
+
+.tooltip-icon:hover .tooltip-text {
+    visibility: visible;
+    opacity: 1;
+}
+
+.tooltip-text {
+    visibility: hidden;
+    opacity: 0;
+    min-width: 150px;
+    max-width: 250px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px; /* Трохи менше закруглення */
+    padding: 5px; /* Збалансований відступ */
+    position: absolute;
+    z-index: 10;
+    bottom: 110%; /* Трохи більший відступ від іконки */
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 8px;
+    white-space: normal;
+    word-wrap: break-word;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Тінь для глибини */
+    transition: opacity 0.01s ease-in-out, transform 0.01s ease-in-out;
+}
+
+.tooltip-text::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-width: 6px;
+    border-style: solid;
+    border-color: #333 transparent transparent transparent;
+}

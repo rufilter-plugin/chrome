@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="__MSG_locale__">
+<head>
+    <meta charset="UTF-8">
+    <title>__MSG_extensionName__</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>__MSG_extensionName__</h1>
+<hr>
+
+<fieldset class="language-filter">
+    <legend>
+        __MSG_languageFilterGroup__
+        <span class="tooltip-icon">
+            ?
+            <span class="tooltip-text">__MSG_languageFilterExplanationTooltip__</span>
+        </span>
+    </legend>
+    <p><span id="langExplanation">__MSG_languageFilterExplanation__</span></p>
+    <div class="radio-group">
+        <label>
+            <input type="radio" name="languageFilter" value="none" id="languageFilterNone">
+            <span id="labelLanguageFilterNone">__MSG_languageFilterNone__</span>
+            <span class="tooltip-icon">
+                ?
+                <span class="tooltip-text">__MSG_languageFilterNoneTooltip__</span>
+            </span>
+        </label>
+        <label>
+            <input type="radio" name="languageFilter" value="uk_en" id="languageFilterUkEn">
+            <span id="labelLanguageFilterUkEn">__MSG_languageFilterUkEn__</span>
+            <span class="tooltip-icon">
+                ?
+                <span class="tooltip-text">__MSG_languageFilterUkEnTooltip__</span>
+            </span>
+        </label>
+        <label>
+            <input type="radio" name="languageFilter" value="exclude_ru" id="languageFilterExcludeRu">
+            <span id="labelLanguageFilterExcludeRu">__MSG_languageFilterExcludeRu__</span>
+            <span class="tooltip-icon">
+                ?
+                <span class="tooltip-text">__MSG_languageFilterExcludeRuTooltip__</span>
+            </span>
+        </label>
+    </div>
+</fieldset>
+
+<fieldset class="search-exclusions">
+    <legend>
+        __MSG_searchExclusionsGroup__
+        <span class="tooltip-icon">
+            ?
+            <span class="tooltip-text">__MSG_searchExclusionsExplanationTooltip__</span>
+        </span>
+    </legend>
+    <p><span id="searchExplanation">__MSG_searchExclusionsExplanation__</span></p>
+    <div class="checkbox-group">
+        <label>
+            <input type="checkbox" id="option1">
+            <span id="labelOption1">__MSG_option1__</span>
+            <span class="tooltip-icon">
+                ?
+                <span class="tooltip-text">__MSG_option1Tooltip__</span>
+            </span>
+        </label>
+        <label>
+            <input type="checkbox" id="option2">
+            <span id="labelOption2">__MSG_option2__</span>
+            <span class="tooltip-icon">
+                ?
+                <span class="tooltip-text">__MSG_option2Tooltip__</span>
+            </span>
+        </label>
+        <label>
+            <input type="checkbox" id="option3">
+            <span id="labelOption3">__MSG_option3__</span>
+            <span class="tooltip-icon">
+                ?
+                <span class="tooltip-text">__MSG_option3Tooltip__</span>
+            </span>
+        </label>
+        <label>
+            <input type="checkbox" id="option4">
+            <span id="labelOption4">__MSG_option4__</span>
+            <span class="tooltip-icon">
+                ?
+                <span class="tooltip-text">__MSG_option4Tooltip__</span>
+            </span>
+        </label>
+    </div>
+    <textarea id="customSites" placeholder="__MSG_customSitesPlaceholder__"></textarea>
+</fieldset>
+
+<div class="instructions">
+    __MSG_instructions__
+</div>
+
+<script src="popup.js"></script>
+</body>
+</html>

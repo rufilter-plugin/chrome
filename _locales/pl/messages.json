@@ -1,0 +1,74 @@
+{
+  "extensionName": {
+    "message": "RuFilter – Usuń rosyjskie strony z wyszukiwania"
+  },
+  "extensionDescription": {
+    "message": "Rozszerzenie do wykluczania rosyjskich treści z wyników wyszukiwania Google"
+  },
+  "languageFilterExplanation": {
+    "message": "Wybierz język, aby ograniczyć wyniki wyszukiwania. Zmieniamy parametr 'lr' w Google."
+  },
+  "languageFilterExplanationTooltip": {
+    "message": "Zmienia parametr 'lr' w Google, aby ograniczyć wyniki według języka."
+  },
+  "searchExclusionsExplanation": {
+    "message": "Te opcje pozwalają wykluczyć określone domeny lub treści z wyników wyszukiwania, aby były bardziej trafne i czystsze."
+  },
+  "searchExclusionsExplanationTooltip": {
+    "message": "Wyklucza określone domeny lub treści z wyników wyszukiwania, korzystając z zaawansowanych parametrów."
+  },
+  "languageFilterGroup": {
+    "message": "Filtr językowy"
+  },
+  "languageFilterNone": {
+    "message": "Nie stosuj filtra"
+  },
+  "languageFilterNoneTooltip": {
+    "message": "Nie stosuje filtra językowego. Parametr 'lr' nie jest ustawiony."
+  },
+  "languageFilterUkEn": {
+    "message": "Szukaj po ukraińsku lub angielsku"
+  },
+  "languageFilterUkEnTooltip": {
+    "message": "Wyniki wyszukiwania będą tylko po ukraińsku lub angielsku. Parametr 'lr=lang_uk|lang_en'."
+  },
+  "languageFilterExcludeRu": {
+    "message": "Wyklucz wyniki w języku rosyjskim"
+  },
+  "languageFilterExcludeRuTooltip": {
+    "message": "Wyklucza wyniki w języku rosyjskim. Parametr 'lr=-lang_ru'."
+  },
+  "searchExclusionsGroup": {
+    "message": "Wykluczenia z wyszukiwania"
+  },
+  "option1": {
+    "message": "Wyklucz domeny .ru"
+  },
+  "option1Tooltip": {
+    "message": "Wyklucza wszystkie strony z domeną .ru, dodając zapytanie '-site:.ru'."
+  },
+  "option2": {
+    "message": "Wyklucz ru.wikipedia.org"
+  },
+  "option2Tooltip": {
+    "message": "Wyklucza ru.wikipedia.org z wyników wyszukiwania poprzez '-site:ru.wikipedia.org'."
+  },
+  "option3": {
+    "message": "Wyklucz rosyjskie znaki"
+  },
+  "option3Tooltip": {
+    "message": "Wyklucza wyniki zawierające rosyjskie znaki, np. 'и', poprzez '-intext:и'."
+  },
+  "option4": {
+    "message": "Własne domeny"
+  },
+  "option4Tooltip": {
+    "message": "Pozwala dodawać własne domeny do wykluczenia. Każda domena jest dodawana jako '-site:domena'."
+  },
+  "customSitesPlaceholder": {
+    "message": "Domena1, Domena2"
+  },
+  "instructions": {
+    "message": "Filtrowanie zostanie zastosowane przy następnym wyszukiwaniu. Aby wyłączyć, odznacz opcje."
+  }
+}

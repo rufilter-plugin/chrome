@@ -1,0 +1,75 @@
+{
+  "extensionName": {
+    "message": "RuFilter - Remove russian sites from search"
+  },
+  "extensionDescription": {
+    "message": "An extension to exclude russian content from Google search results"
+  },
+  "languageFilterExplanation": {
+    "message": "This group of filters allows you to restrict search results by language for more relevant results."
+  },
+  "searchExclusionsExplanation": {
+    "message": "This group of options allows you to exclude specific domains or content from search results, ensuring cleaner results."
+  },
+  "languageFilterGroup": {
+    "message": "Language Filter"
+  },
+  "languageFilterNone": {
+    "message": "Do not apply filter"
+  },
+  "languageFilterUkEn": {
+    "message": "Search in Ukrainian or English"
+  },
+  "languageFilterExcludeRu": {
+    "message": "Exclude russian-language results"
+  },
+  "searchExclusionsGroup": {
+    "message": "Search Exclusions"
+  },
+  "option1": {
+    "message": "Exclude .ru domains"
+  },
+  "option2": {
+    "message": "Exclude ru.wikipedia.org"
+  },
+  "option3": {
+    "message": "Exclude russian characters"
+  },
+  "option4": {
+    "message": "Custom domains"
+  },
+  "option1Tooltip": {
+    "message": "Excludes all sites with the .ru domain by adding the query '-site:.ru'."
+  },
+  "option2Tooltip": {
+    "message": "Excludes ru.wikipedia.org from search results by adding '-site:ru.wikipedia.org'."
+  },
+  "option3Tooltip": {
+    "message": "Excludes results containing Russian characters, e.g., 'Ð¸', using '-intext:Ð¸'."
+  },
+  "option4Tooltip": {
+    "message": "Allows you to add custom domains for exclusion. Each domain is added as '-site:domain'."
+  },
+  "customSitesPlaceholder": {
+    "message": "Domain1, Domain2"
+  },
+  "instructions": {
+    "message": "Filtering will apply on the next search. To disable, uncheck the options."
+  },
+
+  "languageFilterExplanationTooltip": {
+    "message": "Updates the 'lr' parameter of Google search to restrict results based on language."
+  },
+  "languageFilterNoneTooltip": {
+    "message": "No language filtering will be applied. The 'lr' parameter will not be set."
+  },
+  "languageFilterUkEnTooltip": {
+    "message": "Search results will only include Ukrainian or English results by setting 'lr=lang_uk|lang_en'."
+  },
+  "languageFilterExcludeRuTooltip": {
+    "message": "Excludes Russian-language results by setting 'lr=-lang_ru'."
+  },
+  "searchExclusionsExplanationTooltip": {
+    "message": "Excludes specific domains or content from search results using advanced query parameters."
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "extensionName": {
+    "message": "RuFilter – прибрати російське з пошуку"
+  },
+  "extensionDescription": {
+    "message": "Розширення для виключення російського контенту з результатів пошуку Google"
+  },
+  "languageFilterExplanation": {
+    "message": "Виберіть мову для обмеження результатів пошуку. Ми змінюємо параметр 'lr' у Google."
+  },
+  "languageFilterExplanationTooltip": {
+    "message": "Змінює параметр 'lr' у Google, щоб обмежити результати за мовою."
+  },
+  "searchExclusionsExplanation": {
+    "message": "Ці опції дозволяють виключити певні домени або вміст із результатів пошуку, щоб зробити їх чистішими та релевантнішими."
+
+  },
+  "searchExclusionsExplanationTooltip": {
+    "message": "Виключає певні домени або контент із результатів пошуку, використовуючи розширені параметри пошуку."
+  },
+  "languageFilterGroup": {
+    "message": "Мовний фільтр"
+  },
+  "languageFilterNone": {
+    "message": "Не застосовувати фільтр"
+  },
+  "languageFilterNoneTooltip": {
+    "message": "Не застосовує мовний фільтр. Параметр 'lr' ігнорується."
+  },
+  "languageFilterUkEn": {
+    "message": "Українська або англійська"
+  },
+  "languageFilterUkEnTooltip": {
+    "message": "Результати пошуку будуть лише українською або англійською мовами. Параметр 'lr=lang_uk|lang_en'."
+  },
+  "languageFilterExcludeRu": {
+    "message": "Виключити російську"
+  },
+  "languageFilterExcludeRuTooltip": {
+    "message": "Виключає результати пошуку російською мовою. Параметр 'lr=-lang_ru'."
+  },
+  "searchExclusionsGroup": {
+    "message": "Виключення з пошуку"
+  },
+  "option1": {
+    "message": "Виключити домени .ru"
+  },
+  "option1Tooltip": {
+    "message": "Виключає всі сайти, що закінчуються на .ru, використовуючи запит '-site:.ru'."
+  },
+  "option2": {
+    "message": "Виключити ru.wikipedia.org"
+  },
+  "option2Tooltip": {
+    "message": "Виключає ru.wikipedia.org з результатів пошуку, додаючи '-site:ru.wikipedia.org' до запиту."
+  },
+  "option3": {
+    "message": "Виключити російські символи"
+  },
+  "option3Tooltip": {
+    "message": "Виключає результати, що містять російські символи через запит '-intext:и'."
+  },
+  "option4": {
+    "message": "Власні домени"
+  },
+  "option4Tooltip": {
+    "message": "Дозволяє додати власні домени для виключення. Кожен домен додається як '-site:домен'."
+  },
+  "customSitesPlaceholder": {
+    "message": "Домен1, Домен2"
+  },
+  "instructions": {
+    "message": "Фільтрація буде застосована при наступному пошуку. Щоб вимкнути, зніміть опції."
+  }
+}
